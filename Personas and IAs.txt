@@ -8,4 +8,4 @@ International Student: https://app.xtensio.com/folio/q2nec3gy
 
 IA
 —————————————
-Link: 
+Link: https://github.com/justinfriedman/newStudentSite/blob/master/IA.pdf
