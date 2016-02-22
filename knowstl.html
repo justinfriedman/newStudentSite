@@ -1,0 +1,147 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+
+<header>
+  <meta charset="utf-8">
+  <title>Get to know STL | WashU New Student Guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</header>
+<body>
+  <div id="top_bar">
+    <ul>
+      <li>
+        <img src="imgs/washuLogo.png" />
+      </li>
+      <li>
+        <a href="freshmen.html">Freshmen</a>
+      </li>
+      <li>
+        <a href="transfers.html">Transfers</a>
+      </li>
+      <li>
+        <a href="international.html">International Students</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="pic_nav">
+    <ul>
+      <li>
+        <div>
+          <a href="knowstl.html"><img src="#" ></a>
+          <a href="knowstl.html">
+            <p>
+
+            </p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a href="studentgroup.html"><img src="#" ></a>
+          <a href="studentgroup.html">
+            <p>
+
+            </p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a href="firstyearcenter.html"><img src="#" ></a>
+          <a href="firstyearcenter.html">
+            <p>
+
+            </p>
+          </a>
+        </div>
+      </li>
+
+      <li>
+        <div>
+          <a href="courses.html"><img src="#" ></a>
+          <a href="courses.html">
+            <p>
+
+            </p>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="page_title">
+    <h1>Get to Know St. Louis</h1>
+  </div>
+  <div id="stl_content">
+    <div id="place_info">
+      <h3>Something about stl...</h3>
+      <ul>
+        <li>
+          <p>
+            Area 1
+          </p>
+          <li>
+            <p>thing 1</p>
+          </li>
+          <li>
+            <p>thing 2</p>
+          </li>
+        </li>
+        <li>
+          <p>
+            Area 2
+          </p>
+          <li>
+            <p>thing 1</p>
+          </li>
+          <li>
+            <p>thing 2</p>
+          </li>
+        </li><li>
+          <p>
+            Area 3
+          </p>
+          <li>
+            <p>thing 1</p>
+          </li>
+          <li>
+            <p>thing 2</p>
+          </li>
+        </li>
+      </ul>
+    </div>
+    <div id="map">
+      <h2>Find these great area on the map</h2>
+      <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <ul>
+        <li>
+          <p>
+            some text about site
+          </p>
+        </li>
+        <li>
+          <a href="freshman.html">Freshmen</a><a href="transfers.html">Transfers</a><a href="international.html">International Students</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
