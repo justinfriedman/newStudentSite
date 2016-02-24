@@ -1,7 +1,119 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+
+}
+
+.bar_pic_div {
+  border: 10px solid red;
+}
 #map {
         width: 500px;
         height: 400px;
       }
 ul #tb li{
   display:inline;
+}
+
+.bar_pic {
+  text-align: center;
+
+}
+
+#top_bar ul li{
+  display: inline-block;
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.rightPush {
+
+  padding-left: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.bar_pic li{
+  display: inline-block;
+}
+
+.main_content {
+  height: 600px;
+  width: 100%;
+}
+
+
+#welcome_img {
+  width: 100vw;
+
+}
+
+#welcome_img img{
+  height: inherit;
+  width: inherit;
+}
+
+
+.body_text {
+  text-align: center;
+}
+
+.body_p {
+  display: inline-block;
+  width: 50%;
+}
+
+
+
+#bottom_bar ul li{
+  display: inline-block;
+}
+
+.user_message {
+  float: left;
+  padding-left: 50px;
+  width: 900px;
+
+}
+
+.learn {
+  float: right;
+  width: calc(100% - 950px);
+}
+
+.pic_grid_top ul li {
+  display: inline-block;
+
+}
+
+.pic_grid_bottom ul li {
+  display: inline-block;
+  border: 10px solid rgb(255, 255, 255);
+
+
+}
+
+
+footer {
+  padding-top: 300px;
+  display: block;
+  position: absolute;
+  width: 100%;
+
+  bottom: 0px;
 }
