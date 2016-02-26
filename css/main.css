@@ -3,6 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif
 
 }
+.body_text {
+  padding-top: 20px;
+  height: 20em;
+}
 
 .bar_pic_div {
   border: 10px solid red;
